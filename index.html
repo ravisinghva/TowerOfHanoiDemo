@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Towers of Hanoi Samlpe</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script src="JS/functions.js"></script>
+  </head>
+  <body>
+  <div id = "main" class="container-fluid" >
+    <h3>Towers of Hanoi Demo</h3>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+    <form style="width:200px">
+      <div class="form-group">
+          <label for="selNumRings">Number of Rings:</label>
+          <select class="form-control" id="selNumRings">
+            <option>1</option>
+            <option>2</option>
+            <option selected>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+          </select>
+          <br>
+          <button type="button" class="btn btn-primary" id="start_pause">Start</button>
+        </div>
+      </form>
+      </div>
+
+    </div>
+    <div id="gameSpace" class="panel-body" ></div>
+    </div>
+  </body>
+</html>
